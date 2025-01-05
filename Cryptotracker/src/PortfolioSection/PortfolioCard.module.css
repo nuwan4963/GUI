@@ -1,0 +1,59 @@
+.card {
+    border-radius: 11px;
+    background-color: rgba(71, 69, 69, 1);
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    height: 140px;  
+    width: 110px;
+    
+  }
+
+  .card:hover {
+    background-color: rgba(71, 69, 69, 0.8);
+    transform: translateY(-5px) 0.2s;
+    border: 1px solid #ff9332;
+    box-shadow: 0 0.1px 5px #ff9332;
+    }
+
+  .card:hover .connect {
+      color:#ff9332;
+  }
+  
+  .cardImage {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width:auto;
+    border-radius: 11px;
+    padding: 10px 10px 10px 10px;
+    
+  }
+  .connect {
+    margin-left: 10px;
+    color: white;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+
+    
+  }
+  .arrow{
+    
+    width:20px;
+    height:20px;
+    margin-left: 5px;
+  }
+  
+
+  .conn{
+    display: inline-flex;
+    justify-content: center;
+  }
+  
+  @media (max-width: 991px) {
+    .card {
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+  }
