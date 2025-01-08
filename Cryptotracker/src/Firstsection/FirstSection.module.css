@@ -1,0 +1,148 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin:0px;
+  }
+  
+  .heroSection {
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 38px 80px 120px;
+  }
+  
+  .contentWrapper {
+    display: flex;
+    margin-bottom: -24px;
+    width: 100%;
+    max-width: 1187px;
+    flex-direction: column;
+    padding-top: 30px;
+  }
+  
+  .mainHeading {
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 2px;
+    text-align: center;
+    align-self: center;
+    margin-left: 10px;
+    font: 400 36px/20px Roboto, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .headingLarge {
+    font-size: 36px;
+    font: 600 40px/20px Roboto, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .headingSmall {
+    font-size: 20px;
+  }
+  
+  .featuresContainer {
+    margin-top: 26px;
+  }
+  
+  .twoColumnLayout {
+    gap: 20px;
+    display: flex;
+  }
+  
+  .featureColumn {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 39%;
+    margin-left: 0px;
+  }
+  
+  .featureList {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 2px;
+    font: 400 24px/1 Righteous, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  .featureTitle{
+    padding:10px 45px 10px 0;
+  }
+  
+  .imageColumn {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 61%;
+    margin-left: 20px;
+  }
+  .featureItem{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap:10px;
+    padding-top: 20px;
+  }
+  
+  .featureIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 60px;
+  }
+  .description{
+    padding-top: 10px;;
+    font: 400 15px/1 Roboto, -apple-system, Roboto, Helvetica, sans-serif;
+  }
+  
+  .heroImage {
+    aspect-ratio: 1.75;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  @media (max-width: 991px) {
+    .heroSection {
+      max-width: 100%;
+      padding: 0 20px 100px;
+    }
+    
+    .contentWrapper {
+      max-width: 100%;
+      margin-bottom: 10px;
+    }
+    
+    .mainHeading {
+      max-width: 100%;
+    }
+    
+    .featuresContainer {
+      max-width: 100%;
+    }
+    
+    .twoColumnLayout {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+    
+    .featureColumn {
+      width: 100%;
+    }
+    
+    .featureList {
+      margin-top: 40px;
+    }
+    
+    .imageColumn {
+      width: 100%;
+    }
+    
+    .heroImage {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
