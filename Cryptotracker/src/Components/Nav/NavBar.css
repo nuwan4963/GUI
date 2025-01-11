@@ -1,0 +1,54 @@
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 20px 10%;
+    border-bottom: 2px solid #3c3c3c;
+    /* position:fixed;
+    top:0;
+    left:0;
+    z-index: 10; */
+
+}
+
+.logo{
+    width: max(12vw , 120px);
+}
+.navbar ul{
+    color: aliceblue;
+    display: flex;
+    gap:40px;
+    list-style: none;
+}
+.navbar li{
+    cursor: pointer;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: max(1vw,12px);  /* vw (Viewport Width): A relative unit that represents a percentage of the width of the viewport (the visible area of a web page). */
+}
+
+.navbar select{
+    padding: 5px 8px;
+    border-radius: 6px;
+    border: 1px solid white;
+    background: transparent;
+    color: aliceblue;
+}
+.navbar option{
+    background-color: black;
+    color: aliceblue;
+}
+.nav-right button{
+    padding: 10px 8px;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+
+
+

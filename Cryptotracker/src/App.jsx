@@ -1,24 +1,26 @@
-import NavigationBar from "./Navigationbar/NavigationBar.jsx";
-import './App.css';
-import { PortfolioSection } from "./PortfolioSection/PortfolioSection.jsx";
-import { FirstSection } from "./Firstsection/FirstSection.jsx";
-//import { SocialLinks } from "./SocialLinks/SocialLinks.jsx";
+import React from 'react'
+import NavBar from './Components/Nav/NavBar'
+import {Routes, Route} from 'react-router-dom'
+import Home from './pages/Home/Home'
+import Coin from './pages/Coin/Coin'
+import SocialFooter from './Components/Socialfooter/SocialFooter'
+import Footer from './Components/Footer/Footer'
 
 
 
-
-function App(){
-  return(
-    <>   
-    <NavigationBar/>   
-    <PortfolioSection/>
-    <FirstSection/> 
-    {/* <SocialLinks/> */}
-   
-    
-    </>   
-
-  );
-
+const App = () => {
+  return (
+    <div className='app'>
+      <NavBar/> 
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/coin/:coinId' element={<Coin/>}/> 
+      </Routes> 
+      <SocialFooter/>
+      <Footer/>
+      
+    </div>
+  )
 }
 export default App
+
