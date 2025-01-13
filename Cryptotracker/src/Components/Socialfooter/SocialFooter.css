@@ -1,7 +1,8 @@
 
 .social-footer{
-    background-color: rgb(48, 61, 74);
+    background-color: #5e1fc5;
     padding:20px 20px;
+    border-bottom: 2px solid #000000;
     
 }
 
@@ -29,4 +30,7 @@
     padding-right: 10px;
     padding-top: 15px;
     margin-left: 10px;
+}
+.social-up h2{
+    color:rgb(10, 34, 34)
 }

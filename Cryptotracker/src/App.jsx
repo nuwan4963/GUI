@@ -11,13 +11,16 @@ import Footer from './Components/Footer/Footer'
 const App = () => {
   return (
     <div className='app'>
-      <NavBar/> 
+      <NavBar/>
+       
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/coin/:coinId' element={<Coin/>}/> 
+        <Route path='/coin/' element={<Coin/>}/> 
       </Routes> 
+
       <SocialFooter/>
       <Footer/>
+      
       
     </div>
   )

@@ -1,29 +1,93 @@
 
-.footer{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    padding: 50px 10%;
+footer{
+    width:100%;
+    position: absolute;
+    bottom: 0;
+    padding : 100px 0 30px;
+    padding:20px 20px;
+    background-color: rgb(60, 66, 73);
+    
 
-    border-bottom: 2px solid #3c3c3c;
     
 }
-.footer-list{
+.image1{
+    width: 100px;
+}
+.row{
+    background-color: rgb(60, 66, 73);
+    padding:20px 20px;
+    padding-left: 125px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    margin: auto;
+    align-items: flex-start;
+    justify-content: space-between;
+
+
+}
+.col{
+    flex-basis: 25%;
+    padding:30px 30px;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+}
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #fff;
+    margin:20px 0;
+
+}
+ul li {
+    list-style: none;
+    margin-bottom: 12px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.mail-image{
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+}
+.mail-image2{
+    width: 23px;
+    
+}
+.mail-form{
     display: flex;
     flex-direction: row;
-    gap:50px;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    padding-left: 100px;
-}
-.footer-list li{
-    font-size: 20px;
-    list-style: none;
-    margin:0;
     gap:5px;
+}
+.mail-form input{
+    background-color:#2b2b2d;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    color:black;
+}
+.form-button{
+    outline: none;
+    border: none;
+    background-color:#ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    padding:5px 13px;
+    cursor: pointer;
+    border-radius: 4px;
     
+
+
 }
-.footer-list h3{
-    padding-bottom: 15px;
+.copyright{
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
 }
+
+

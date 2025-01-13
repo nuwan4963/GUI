@@ -4,7 +4,7 @@ import './Coin.css'
 function Coin() {
   return (
     <div className='coin'>
-        <h2></h2>
+        <h2>hfkbhfhisbfbsfbkhsf</h2>
       
     </div>
   )

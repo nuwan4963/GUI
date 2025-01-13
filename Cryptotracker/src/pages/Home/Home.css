@@ -1,6 +1,8 @@
 .home{
-    padding:0px 10px;
+    padding:220px 10px;
     padding-bottom: 100px;
+    background-color: black;
+
 }
 .hero{
     max-width: 600px;
@@ -43,7 +45,7 @@
     outline: none;
     border: none;
     background-color:#7927ff;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 16px;
     padding:10px 30px;
     cursor: pointer;
@@ -64,4 +66,73 @@
     align-items: center;
     border-bottom: 1px solid#3c3c3c;
 
+}
+.image{
+    width:50px ;
+    height:50px ;
+}
+
+
+.home-des{
+    padding:220px 10px;
+    padding-bottom: 100px;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    
+    
+    
+
+}
+.hero-des{
+    
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap:30px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    
+    
+
+}
+
+.home-des h2{
+    font-size: max(3vw,20px);
+}
+.home-des p{
+    width: 75%;
+    color:aliceblue;
+    line-height: 1.5;;
+
+}
+.col-des{
+    display: flex;
+    flex-direction: column;
+    
+}
+.row.-des{
+    display: flex;
+    flex-direction: row;
+    
+}
+.row-first{
+    display: flex;
+    flex-direction: row;
+    gap:none;
+    margin:auto;
+
+}
+.image2{
+    width: 50%;
+    height: 50%px;
+}
+.text{
+    padding: none;
+    padding-right: 20px 10px;
+    
+   
 }

@@ -3,6 +3,7 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
 }
 
 a{
@@ -13,6 +14,5 @@ a{
 .app{
     min-height: 100vh;
     color: white;
-    background:rgb(0, 0, 0);
-
+    background:rgb(0, 0, 0); 
 }

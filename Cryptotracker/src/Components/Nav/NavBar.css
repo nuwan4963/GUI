@@ -4,10 +4,12 @@
     justify-content:space-between;
     padding: 20px 10%;
     border-bottom: 2px solid #3c3c3c;
-    /* position:fixed;
+    background-color: black;
+    position:fixed;
     top:0;
     left:0;
-    z-index: 10; */
+    z-index: 10;
+    width: 100%;
 
 }
 
