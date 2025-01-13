@@ -8,7 +8,7 @@ const NavBar = () => {
 
     return (
     <div className='navbar'>
-        <img src={logo} alt="logo" className='logo'/>
+        <a href='http://localhost:5173/'><img src={logo} alt="logo" className='logo'/></a>
         <ul>
             <li>Crypto Currencies</li>
             <li>Exchanges</li>
@@ -24,7 +24,8 @@ const NavBar = () => {
                 <option value="lkr">LKR</option>
 
             </select>
-            <button>Sign Up<img src=" " alt=""></img></button>
+            <button className='button-signup'>Sign Up<img src=" " alt=""></img></button>
+            <a href="http://localhost:5173/login"><button className='button-login'>Login<img src=" " alt=""></img></button></a>
 
         </div>
       

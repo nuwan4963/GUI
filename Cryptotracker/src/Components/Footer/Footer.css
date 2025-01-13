@@ -5,15 +5,15 @@ footer{
     bottom: 0;
     padding : 100px 0 30px;
     padding:20px 20px;
-    background-color: rgb(60, 66, 73);
+    background-color: rgb(60, 66, 73); 
     
-
     
 }
 .image1{
     width: 100px;
 }
 .row{
+    /* border-top-left-radius: 90px; */
     background-color: rgb(60, 66, 73);
     padding:20px 20px;
     padding-left: 125px;
@@ -23,16 +23,19 @@ footer{
     margin: auto;
     align-items: flex-start;
     justify-content: space-between;
+    background-image: url(../../assets/Untitled\ design.jpg);
 
 
 }
 .col{
     flex-basis: 25%;
     padding:30px 30px;
+    color: #fff;
 }
 .col h3{
     width: fit-content;
     margin-bottom: 40px;
+    color: #fff;
 }
 .email-id{
     width: fit-content;
@@ -40,15 +43,22 @@ footer{
     margin:20px 0;
 
 }
+
 ul li {
     list-style: none;
     margin-bottom: 12px;
+    color: #fff;
 
 }
 ul li a{
     text-decoration: none;
     color: #fff;
 
+}
+ul li a:hover{
+    color: #000000;
+    text-decoration: underline;
+    transition: .2s;
 }
 .mail-image{
     width: 25px;
@@ -88,6 +98,28 @@ ul li a{
     text-align: center;
     margin: auto;
     padding-top: 10px;
+    color: #ffffff;
+}
+.row hr{
+    width: 100%;
+    border: none;
+    height: 2px;
+    background-color: #ffffff;
+    margin-top: 20px;
 }
 
-
+.social{
+    width: 30px;
+    margin: 0 5px;
+    box-shadow: #ffffff 0px 0px 1px;
+    
+}
+.social:hover{
+    box-shadow: #545451 1px 0px 2px;
+    transition: 0.5s;
+}
+.form-button:hover{
+    background-color:transparent;
+    transition: 0.5s;
+    border: #2b2b2d 2px solid;
+}
