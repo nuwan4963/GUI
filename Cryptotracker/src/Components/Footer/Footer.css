@@ -1,0 +1,125 @@
+
+footer{
+    width:100%;
+    position: absolute;
+    bottom: 0;
+    padding : 100px 0 30px;
+    padding:20px 20px;
+    background-color: rgb(60, 66, 73); 
+    
+    
+}
+.image1{
+    width: 100px;
+}
+.row{
+    /* border-top-left-radius: 90px; */
+    background-color: rgb(60, 66, 73);
+    padding:20px 20px;
+    padding-left: 125px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    margin: auto;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-image: url(../../assets/Untitled\ design.jpg);
+
+
+}
+.col{
+    flex-basis: 25%;
+    padding:30px 30px;
+    color: #fff;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    color: #fff;
+}
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #fff;
+    margin:20px 0;
+
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 12px;
+    color: #fff;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+ul li a:hover{
+    color: #000000;
+    text-decoration: underline;
+    transition: .2s;
+}
+.mail-image{
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+}
+.mail-image2{
+    width: 23px;
+    
+}
+.mail-form{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+}
+.mail-form input{
+    background-color:#2b2b2d;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    color:black;
+}
+.form-button{
+    outline: none;
+    border: none;
+    background-color:#ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    padding:5px 13px;
+    cursor: pointer;
+    border-radius: 4px;
+    
+
+
+}
+.copyright{
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    color: #ffffff;
+}
+.row hr{
+    width: 100%;
+    border: none;
+    height: 2px;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+
+.social{
+    width: 30px;
+    margin: 0 5px;
+    box-shadow: #ffffff 0px 0px 1px;
+    
+}
+.social:hover{
+    box-shadow: #545451 1px 0px 2px;
+    transition: 0.5s;
+}
+.form-button:hover{
+    background-color:transparent;
+    transition: 0.5s;
+    border: #2b2b2d 2px solid;
+}

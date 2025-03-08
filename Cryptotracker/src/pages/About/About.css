@@ -1,0 +1,39 @@
+
+.about-layout{
+    background-color: black;
+    padding: 5px 50px;
+    margin: auto; 
+    background-image: url(../../assets/background5.jpg);
+}
+
+h1{ 
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+
+}
+.about-first{
+    margin-top:250px ;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.about-second{
+    
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}

@@ -1,0 +1,128 @@
+
+.binance-connect-first{
+    background-color: black;
+    padding: 10px 20px;
+    margin: auto; 
+    
+}
+.binance-connect-main{
+    margin-top: 200px;
+    margin-bottom: 110px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.binance-connect-box1{
+    justify-items: center;
+    width: auto;
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+}
+.binance-connect-box1 a{
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    color: #6f82a1;
+
+}
+.connect-box-title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.binance-logo{
+    width: 70px;
+}
+.binance-connect-box2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    width: auto;
+    gap: 30px;
+    padding: 5px 10px;
+}
+.binance-connect-box2-1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    
+    
+}
+.binance-connect-box2-1 input{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background-color:transparent;
+    padding: 10px;
+    color: #fff;
+    
+
+}
+.binance-connect-box2-1 p{
+    padding-left: 10px;
+}
+.binance-connect-box2-1 h2{
+    padding-right: 10px;
+}
+.connect-button{
+    width: 50%;
+    align-self: center;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #fff;
+}
+.connect-button:hover{
+    background: none;
+    color: rgb(112, 112, 99);
+}
+.binance-connect-box2-1 section{
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    background-color: #071326;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.secure-connection img{
+    width: 5%;
+    align-self: flex-start;
+    
+}
+.secure-title{
+    font-size:1.3em;
+    
+    
+}
+.secure-connection h2{
+    font-size: 1.3em;
+    text-align: left;
+    padding-left: 10px;
+    
+}
+.secure-connection p{
+    font-size: 1em;
+    text-align: left;
+    padding-left: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #6f82a1;    
+}
+.secure-div{
+    gap:5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.binance-connect-box2-2{
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+
+}
+
+

@@ -1,0 +1,83 @@
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 20px 10%;
+    border-bottom: 2px solid #3c3c3c;
+    background: linear-gradient(90deg,#000000,#000000); 
+    position:fixed;
+    top:0;
+    left:0; 
+    z-index: 10;
+    width: 100%;
+    /* background-image: url(../../assets/bigbinance.jpeg); */
+}
+
+.logo{
+    width: max(12vw , 120px);
+}
+.navbar ul{
+    color: rgb(255, 255, 255);
+    display: flex;
+    gap:60px;
+    list-style: none;
+    
+    /* text-decoration: underline; */
+}
+.navbar li:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: .3s;
+    scale: 1.1;
+    transform: translateY(-2px);
+    border-radius: 5px;
+    text-decoration: underline;
+}
+.navbar li a:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: .3s;
+    scale: 1.1;
+    transform: translateY(-2px);
+    border-radius: 5px;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: max(1vw,12px);  /* vw (Viewport Width): A relative unit that represents a percentage of the width of the viewport (the visible area of a web page). */
+}
+
+.navbar select{
+    padding: 5px 8px;
+    border-radius: 6px;
+    border: 1px solid rgb(255, 255, 255);
+    background: white;
+    color: rgb(12, 12, 12);
+}
+.navbar option{
+    background-color: rgb(254, 254, 254);
+    color: rgb(0, 0, 0);
+}
+.button-signup{
+    padding: 10px 8px;
+    border-radius: 10px;
+    /* border: 2px solid white; */
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: none;
+}
+.button-login{
+    border: none;
+    padding: 10px 8px;
+    border-radius: 10px;
+    /* border: 2px solid white; */
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: rgb(213, 219, 240);
+    height: auto;
+}
+
+
+
+

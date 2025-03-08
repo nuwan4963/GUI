@@ -1,0 +1,20 @@
+D:\My Document\EC3404 GUI Programming\CryptoTracker desktop\Crypto Tracker\Crypto Tracker\bin\Debug\net8.0-windows\Crypto Tracker.exe
+D:\My Document\EC3404 GUI Programming\CryptoTracker desktop\Crypto Tracker\Crypto Tracker\bin\Debug\net8.0-windows\Crypto Tracker.deps.json
+D:\My Document\EC3404 GUI Programming\CryptoTracker desktop\Crypto Tracker\Crypto Tracker\bin\Debug\net8.0-windows\Crypto Tracker.runtimeconfig.json
+D:\My Document\EC3404 GUI Programming\CryptoTracker desktop\Crypto Tracker\Crypto Tracker\bin\Debug\net8.0-windows\Crypto Tracker.dll
+D:\My Document\EC3404 GUI Programming\CryptoTracker desktop\Crypto Tracker\Crypto Tracker\bin\Debug\net8.0-windows\Crypto Tracker.pdb
+D:\My Document\EC3404 GUI Programming\CryptoTracker desktop\Crypto Tracker\Crypto Tracker\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\My Document\EC3404 GUI Programming\CryptoTracker desktop\Crypto Tracker\Crypto Tracker\obj\Debug\net8.0-windows\App.g.cs
+D:\My Document\EC3404 GUI Programming\CryptoTracker desktop\Crypto Tracker\Crypto Tracker\obj\Debug\net8.0-windows\Crypto Tracker_MarkupCompile.cache
+D:\My Document\EC3404 GUI Programming\CryptoTracker desktop\Crypto Tracker\Crypto Tracker\obj\Debug\net8.0-windows\Crypto Tracker_MarkupCompile.lref
+D:\My Document\EC3404 GUI Programming\CryptoTracker desktop\Crypto Tracker\Crypto Tracker\obj\Debug\net8.0-windows\MainWindow.baml
+D:\My Document\EC3404 GUI Programming\CryptoTracker desktop\Crypto Tracker\Crypto Tracker\obj\Debug\net8.0-windows\Crypto Tracker.g.resources
+D:\My Document\EC3404 GUI Programming\CryptoTracker desktop\Crypto Tracker\Crypto Tracker\obj\Debug\net8.0-windows\Crypto Tracker.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Document\EC3404 GUI Programming\CryptoTracker desktop\Crypto Tracker\Crypto Tracker\obj\Debug\net8.0-windows\Crypto Tracker.AssemblyInfoInputs.cache
+D:\My Document\EC3404 GUI Programming\CryptoTracker desktop\Crypto Tracker\Crypto Tracker\obj\Debug\net8.0-windows\Crypto Tracker.AssemblyInfo.cs
+D:\My Document\EC3404 GUI Programming\CryptoTracker desktop\Crypto Tracker\Crypto Tracker\obj\Debug\net8.0-windows\Crypto Tracker.csproj.CoreCompileInputs.cache
+D:\My Document\EC3404 GUI Programming\CryptoTracker desktop\Crypto Tracker\Crypto Tracker\obj\Debug\net8.0-windows\Crypto Tracker.dll
+D:\My Document\EC3404 GUI Programming\CryptoTracker desktop\Crypto Tracker\Crypto Tracker\obj\Debug\net8.0-windows\refint\Crypto Tracker.dll
+D:\My Document\EC3404 GUI Programming\CryptoTracker desktop\Crypto Tracker\Crypto Tracker\obj\Debug\net8.0-windows\Crypto Tracker.pdb
+D:\My Document\EC3404 GUI Programming\CryptoTracker desktop\Crypto Tracker\Crypto Tracker\obj\Debug\net8.0-windows\Crypto Tracker.genruntimeconfig.cache
+D:\My Document\EC3404 GUI Programming\CryptoTracker desktop\Crypto Tracker\Crypto Tracker\obj\Debug\net8.0-windows\ref\Crypto Tracker.dll
